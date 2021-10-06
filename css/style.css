@@ -1,4 +1,11 @@
-.btn{
+@font-face {
+  font-family: Akronim;
+  src: url(../fonts/Akronim-Regular.ttf);
+}
+body {
+	font-family: arial;
+}
+.btn, .btn2{
 	background-color: #f1e7e7;
 	font-size: 48px;
 	border-radius: 30px;
@@ -7,22 +14,19 @@
 	letter-spacing: 2px;
 	text-transform: capitalize;
 	color: black;
-	
+	font-family: 'Akronim';
+
+}
+.btn{
+
+	color: red;
 	
 }
 .btn:hover{
 	background-color: #dbd2d2;
 }
 .btn2{
-	background: #f1e7e7;
-	font-size: 48px;
-	border-radius: 30px;
-	text-decoration: none;
-	padding: 10px;
-	letter-spacing: 2px;
-	text-transform: capitalize;
-	color: black;
-	text-align: center;
+	color: green;
 }
 .btn2:hover{
 	background: #dbd2d2;
